@@ -1,0 +1,10 @@
+PUT http://localhost:8080/events/3
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFsZHJpbjFAZ21haWwuY29tIiwiZXhwIjoxNzA0OTkxMzUxLCJ1c2VySWQiOjJ9.bkDH-nIH8UMG9GXct4uN1uNOAANRkEXoZRLgFSE3QAg
+
+{
+    "name": "Test bang",
+    "description": "Test bang",
+    "location": "bandung bang",
+    "dateTime": "2023-01-15T00:00:00.000Z"
+}
